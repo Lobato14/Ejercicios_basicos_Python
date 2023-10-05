@@ -1,4 +1,4 @@
-from Ejercicio_2_1 import obtener_saludo
+from src.Ejercicio_2_1 import obtener_saludo
 
 def test_obtener_saludo():
     nombre = "Juan"
