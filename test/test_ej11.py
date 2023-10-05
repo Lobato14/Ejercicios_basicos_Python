@@ -1,4 +1,4 @@
-from Ejercicio_2_11 import suma_enteros
+from src.Ejercicio_2_11 import suma_enteros
 
 def test_suma_enteros():
     assert suma_enteros(1) == 1

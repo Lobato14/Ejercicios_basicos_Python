@@ -1,4 +1,4 @@
-from Ejercicio_2_23 import modificarEmail
+from src.Ejercicio_2_23 import modificarEmail
 
 def test_modificarEmail():
     assert modificarEmail("rubencelislobato@gmail.com") == "rubencelislobato@ceu.es"

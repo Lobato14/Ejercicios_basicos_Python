@@ -1,4 +1,4 @@
-from Ejercicio_2_22 import convertir_vocal_mayuscula
+from src.Ejercicio_2_22 import convertir_vocal_mayuscula
 
 def test_convertir_vocal_mayuscula():
     assert convertir_vocal_mayuscula("Hola, este es un ejemplo de frase.", "a") == "HolA, este es un ejemplo de frAse."

@@ -1,4 +1,4 @@
-from Ejercicio_2_4 import conversor_Celsius_Fahrenheit
+from src.Ejercicio_2_4 import conversor_Celsius_Fahrenheit
 
 # Test para números positivos
 def test_conversor_Celsius_Fahrenheit_positivos():

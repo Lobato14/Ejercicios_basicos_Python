@@ -1,4 +1,4 @@
-from Ejercicio_2_13 import division_prog
+from src.Ejercicio_2_13 import division_prog
 
 def test_division_prog():
     assert division_prog(8, 4) == "La división de 8 entre 4 da un cociente 2 y un resto 0."

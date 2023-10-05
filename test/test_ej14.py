@@ -1,4 +1,4 @@
-from Ejercicio_2_14 import calculo_peso
+from src.Ejercicio_2_14 import calculo_peso
 
 def test_calculo_peso():
     assert calculo_peso(5, 3) == 0.785

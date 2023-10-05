@@ -1,4 +1,4 @@
-from Ejercicio_2_17 import nombreVeces
+from src.Ejercicio_2_17 import nombreVeces
 import pytest
 @pytest.mark.parametrize(
     "input_nombre, input_numero, expected_output",

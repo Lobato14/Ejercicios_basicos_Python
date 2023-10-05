@@ -1,4 +1,4 @@
-from Ejercicio_2_27 import caracteristProducto
+from src.Ejercicio_2_27 import caracteristProducto
 
 
 def test_caracteristProducto_valido():

@@ -1,4 +1,4 @@
-from Ejercicio_2_6 import calcular_pvp
+from src.Ejercicio_2_6 import calcular_pvp
 
 def test_calculo_pvp():
     assert calcular_pvp(121) == "El artículo sin IVA es de 110.0\nEl IVA pagado es de 11.0"

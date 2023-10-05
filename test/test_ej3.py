@@ -1,6 +1,6 @@
-from Ejercicio_2_3 import resultado_parte1
-from Ejercicio_2_3 import resultado_parte2
-from Ejercicio_2_3 import resultado_parte3
+from src.Ejercicio_2_3 import resultado_parte1
+from src.Ejercicio_2_3 import resultado_parte2
+from src.Ejercicio_2_3 import resultado_parte3
 
 def test_resultado_parte1():
     assert resultado_parte1(17) == "El primer resultado es 8.5"

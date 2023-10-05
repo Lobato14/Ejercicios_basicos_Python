@@ -1,4 +1,4 @@
-from Ejercicio_2_19 import ponerMay_NLetras
+from src.Ejercicio_2_19 import ponerMay_NLetras
 
 def test_ponerMay_NLetras():
     # Caso de prueba cuando el nombre es en minúsculas

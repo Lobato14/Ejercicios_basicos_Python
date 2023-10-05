@@ -1,4 +1,4 @@
-from Ejercicio_2_26 import mostrar_lista_compra
+from src.Ejercicio_2_26 import mostrar_lista_compra
 
 def test_mostrar_lista_compra():
     assert mostrar_lista_compra("huevos, platanos, manzanas") == "huevos\nplatanos\nmanzanas\n"

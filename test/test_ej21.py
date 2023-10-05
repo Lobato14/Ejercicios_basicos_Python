@@ -1,4 +1,4 @@
-from Ejercicio_2_21 import fraseInvertida
+from src.Ejercicio_2_21 import fraseInvertida
 
 def test_fraseInvertida():
     assert fraseInvertida("Hola que tal") == "tal que Hola"

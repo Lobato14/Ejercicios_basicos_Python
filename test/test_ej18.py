@@ -1,4 +1,4 @@
-from Ejercicio_2_18 import procesar_nombre
+from src.Ejercicio_2_18 import procesar_nombre
 
 def test_procesar_nombre():
     # Caso de prueba cuando el nombre completo contiene mayúsculas y minúsculas

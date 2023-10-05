@@ -1,4 +1,4 @@
-from Ejercicio_2_25 import obtener_fecha_nacimiento
+from src.Ejercicio_2_25 import obtener_fecha_nacimiento
 
 def test_obtener_fecha_nacimiento():
     assert obtener_fecha_nacimiento("05/5/1990") == (5, 5, 1990)
