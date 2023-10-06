@@ -8,6 +8,8 @@ peso_payaso = 112
 peso_muneca = 75
 
 def calculo_peso(num_payasos, num_munecas):
+    if num_munecas < 0 or num_payasos < 0:
+        return "El numero de payasos o muñecas no pueden ser menores a 0."
     # Sumar el peso de los payasos y muñecas vendidos
     peso_total = (num_payasos * peso_payaso) + (num_munecas * peso_muneca)
     # Convertir el peso total a kilogramos (1 kg = 1000 g)
