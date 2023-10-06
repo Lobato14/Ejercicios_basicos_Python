@@ -4,6 +4,8 @@
 tipoIVA = 0.10
 
 def calcular_pvp(importFinal):
+    if importFinal < 0:
+        return "El importe final del articulo no puede ser un numero negativo"
     prodSinIVA = importFinal / (1 + tipoIVA)
     ivaPagado = importFinal - prodSinIVA
     prodSinIVA_redondeado = round(prodSinIVA, 2)
