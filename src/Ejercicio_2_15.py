@@ -7,6 +7,8 @@
 interes = 0.4
 
 def cantDeposAnual(cantDepos):
+    if cantDepos <= 0:
+        return "La cantidad depositada no puede ser 0 menor que este"
     for contador in range(3):
         cantDepos += cantDepos * interes
         print("La cantidad del año", contador + 1, "es", round(cantDepos, 2))
