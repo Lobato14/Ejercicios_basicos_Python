@@ -4,4 +4,4 @@ def test_suma_enteros():
     assert suma_enteros(1) == 1
     assert suma_enteros(5) == 15
     assert suma_enteros(10) == 55
-    assert suma_enteros(100) == 5050
+    assert suma_enteros(-100) == "El número entero debe ser positivo"

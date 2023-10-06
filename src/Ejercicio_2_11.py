@@ -3,6 +3,8 @@
 # de la siguiente forma
 
 def suma_enteros(numero):
+    if numero < 0:
+        return "El número entero debe ser positivo"
     suma = 0
     for i in range(1, numero + 1):
         suma += i
