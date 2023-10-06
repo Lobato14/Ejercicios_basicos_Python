@@ -3,6 +3,8 @@
 # corporal calculado redondeado con dos decimales.
 
 def calculoIMC(peso, altura):
+    if peso <= 0 or altura <= 0:
+        return "El peso y la altura no puede ser 0 o menor que este"
     IMC = peso / (altura)**2
     IMC_redondeado = round(IMC, 2)
     return "Tu indice de masa corporal es de " + str(IMC_redondeado)
