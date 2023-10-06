@@ -1,9 +1,10 @@
 # Escribir el programa del ejercicio 1.7 usando solamente dos variables diferentes.
 
 def sumar_numeros(numeros):
-    suma = 0
     for numero in numeros:
-        suma += numero
+        if numero < 0:
+            return "Los numeros introducidos no pueden ser menores a 0"
+    suma = sum(numeros)
     return suma
 
 if __name__ == "__main__":
