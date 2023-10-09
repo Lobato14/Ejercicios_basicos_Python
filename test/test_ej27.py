@@ -1,6 +1,5 @@
 from src.Ejercicio_2_27 import caracteristProducto
 
-
 def test_caracteristProducto_valido():
     assert caracteristProducto("Producto1", 10.5, 3) == 31.5
     assert caracteristProducto("Producto2", 5.2, 2) == 10.4
